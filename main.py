@@ -3,7 +3,7 @@
 #02/08/22
 
 import time
-
+# Create the opportunity for the player to choose to play again.
 def main ():
   #Introduction, welcome message
   print("Welcome to the Pap High Coding Quiz")
@@ -15,7 +15,31 @@ def main ():
   rite_ans = 0
   wrong_ans = 0
   score = (rite_ans + wrong_ans)
-  
+
+  print('''888
+                    .8888'
+                   .8888'
+                   888'
+                   8'
+      .88888888888. .88888888888.
+   .8888888888888888888888888888888.
+ .8888888888888888888888888888888888.
+.&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
+`%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
+ `00000000000000000000000000000000000'
+  `000000000000000000000000000000000'
+   `0000000000000000000000000000000'
+     `###########################'
+jgs    `#######################'
+         `#########''########'
+           `""""""'  `"""""' ''') 
   
   #Questions
   question_1 = input("In computer programming what is pseudocode? \na) a computer language.\nb)A card that increases the memory on your hard drive.\nc) A plan that sets out the algorithm of your program. ").lower()
